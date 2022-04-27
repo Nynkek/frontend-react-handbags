@@ -61,12 +61,17 @@ function App() {
                 />
                 <Tile
                     title="The Brand"
-                    paragraaf1="Aliquid amet animi architecto aut doloribus et eum iusto neque officia quam ratione repudiandae, rerum unde veniam voluptatibus."
+                    paragraaf={`
+                    Aliquid amet animi architecto aut doloribus et eum iusto neque officia quam ratione repudiandae, rerum unde veniam voluptatibus.
+                    `}
                 />
                 <Tile
                     title="Our story"
-                    paragraaf1="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur culpa eius eligendi ex harum ipsum maiores, nesciunt quis rem, unde vel voluptatem?  "
-                    paragraaf2="Aliquid amet animi architecto aut doloribus et eum iusto neque officia quam ratione repudiandae, rerum unde veniam voluptatibus. "
+                    paragraaf={`
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur culpa eius eligendi ex harum ipsum maiores, nesciunt quis rem, unde vel voluptatem?
+                    
+                    Aliquid amet animi architecto aut doloribus et eum iusto neque officia quam ratione repudiandae, rerum unde veniam voluptatibus. 
+                    `}
                 />
                 <Tile
                     image={storyImage}

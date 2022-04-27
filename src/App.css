@@ -78,3 +78,7 @@ article span {
 article p {
     font-size: 10px;
 }
+
+.paragraaf {
+    white-space: pre-line;
+}
