@@ -61,18 +61,22 @@ function App() {
                 />
                 <Tile
                     title="The Brand"
-                    paragraaf={`
-                    Aliquid amet animi architecto aut doloribus et eum iusto neque officia quam ratione repudiandae, rerum unde veniam voluptatibus.
-                    `}
-                />
+                >
+                    <p> Aliquid amet animi architecto aut doloribus et eum iusto neque officia quam ratione repudiandae,
+                        rerum unde veniam voluptatibus.
+                    </p>
+
+                </Tile>
                 <Tile
                     title="Our story"
-                    paragraaf={`
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur culpa eius eligendi ex harum ipsum maiores, nesciunt quis rem, unde vel voluptatem?
-                    
-                    Aliquid amet animi architecto aut doloribus et eum iusto neque officia quam ratione repudiandae, rerum unde veniam voluptatibus. 
-                    `}
-                />
+                >
+                    <p> Aliquid amet animi architecto aut doloribus et eum iusto neque officia quam ratione repudiandae,
+                        rerum unde veniam voluptatibus.
+                    </p>
+                    <p> Aliquid amet animi architecto aut doloribus et eum iusto neque officia quam ratione repudiandae,
+                        rerum unde veniam voluptatibus.
+                    </p>
+                </Tile>
                 <Tile
                     image={storyImage}
                 />

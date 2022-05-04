@@ -1,15 +1,16 @@
 import React from "react";
 
-function Tile({image, title, paragraaf}) {
+function Tile({image, title, children}) {
     return (
         <section>
             {image &&
                 <img src={image} alt={title}/>
             }
-            <h2>{title}</h2>
-            <p className="paragraaf">{paragraaf}</p>
+            {title &&
+                <h2>{title}</h2>
+            }
+            {children}
         </section>
-
     );
 }
 
